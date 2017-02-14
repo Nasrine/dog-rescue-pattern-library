@@ -2,12 +2,12 @@
 name: "My Portfolio"
 fontUrl: "https://fonts.googleapis.com/css?family=Algereya+Sans:400,4001,700|Source+Code+Pro:400,700"
 fonts:
-  Primary: |
+  primary: |
     The primary type face represents a strong and bold face with lines that show stabilit and arrogance to fully express the power and dominance of Our company.
 
     Use the primary typeface for body copy, Captions and should really anything by default.
 
-    Secondary: |
+    secondary: |
       The secondary typeface is a compressed serif that really shows strenght and dominance over our domain.
 
       The secondary typeface should be used for headings, buttons and to highlight important things.
