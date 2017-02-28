@@ -1,6 +1,7 @@
 ---
-name: "My Portfolio"
-fontUrl: "https://fonts.googleapis.com/css?family=Algereya+Sans:400,4001,700|Source+Code+Pro:400,700"
+name: "Art"
+fontUrl: "https://fonts.googleapis.com/css?family=open+sans:400,4001,700|Source+Code+Pro:400,700"
+
 fonts:
   primary: |
     The primary type face represents a strong and bold face with lines that show stabilit and arrogance to fully express the power and dominance of Our company.
