@@ -11,9 +11,10 @@
 
   color: #fff;
 }
+
 .btn-light:hover {
   background-color: black;
-  border-box: black;
+  border: black;
   border-color: black;
 }
 

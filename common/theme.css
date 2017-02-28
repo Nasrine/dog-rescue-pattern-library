@@ -6,7 +6,7 @@
   --color-neutral-beige: #e2e2e2;
   --color-whatever: gold;
 
-  --font-primary: "Open Sans", sans-serif;;
+  --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Prociono, serif";
 }
 
@@ -26,5 +26,3 @@ a {
 a:hover {
   color: lightcoral;
 }
-
-
