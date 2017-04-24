@@ -1,10 +1,10 @@
 :root {
   --color-primary: lightcoral;
   --color-primary-light: #494948;
-  --color-secondary: red;
+  --color-secondary: #b22028;
   --color-accent: #494948;
   --color-neutral-beige: #e2e2e2;
-  --color-whatever: gold;
+  --color-pink: #ef8080;
 
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Prociono, serif";

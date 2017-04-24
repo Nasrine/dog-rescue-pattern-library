@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width;initial-scale=1">
+  <title>Contact form</title><meta name="viewport" content="width=device-width;initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-length island" method="post" novalidate>
+    <div class= "error-message error-message-highlighted island-1-2" role="alert" aria-live="assertive">
+      <h3 class=" gutter-1 push-1-4">Contact</h3>
+        <i class="icon i-32"><svg><use xlink:href="images/icon.svg#error" /></svg></i>
+          <span class="form-info">Please fill out the form with some information about your project. Please note that it will take some times to respond</span>
+      </div>
+
+      <div class="push-1-2">
+        <label for="first-name">First Name</label>
+        <input id="first-name" required aria-describedby="first-name-error">
+        <p class="error-message milli island-1-4 push-0" id="first-name-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+          <span class="icon-label">Please provide a name</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="last-name">Last Name</label>
+        <input id="last-name" required aria-describedby="last-name-error">
+        <p class="error-message milli island-1-4 push-0" id="last-name-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a last name</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="email">Email</label>
+        <input type="email" id="email" required aria-describedby="email-error">
+        <p class="error-message milli island-1-4 push-0" id="email-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label"> Please provide a properly formatted email address</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="website">Website</label>
+        <input type="url" id="url" required aria-describedby="website-error">
+        <p class="error-message milli island-1-4 push-0" id="website-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label"> Please provide a properly formatted website address</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="text">comment<em class="flag-optional milli normal">(optional)</em></label>
+        <input type="text" id="url">
+      </div>
+
+      <div class="push-1-2">
+        <label for="url">Tell me about your project<em class="flag-optional milli normal">(optional)</em></label>
+        <textarea></textarea>
+      </div>
+
+      <div class="push-1-2 pad-t-1-2">
+        <input type="checkbox" id="checkbox" required aria-describedby="agree-error">
+        <label for="checkbox">I agree!</label>
+
+        <p class="error-message milli island-1-4 push-0" id="agree-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please check agree to continue!</span>
+        </p>
+      </div>
+
+      <div class="pad-t-1-2">
+        <button class="btn" type="submit">send</button>
+      </div>
+  </form>
+  <script src="http://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+</body>
+</html>
