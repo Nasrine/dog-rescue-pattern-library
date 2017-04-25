@@ -51,7 +51,7 @@
 
         <div class="push-1-2">
           <label for="website">Website</label>
-          <input type="url" id="url" required aria-describedby="website-error">
+          <input type="url" id="website" required aria-describedby="website-error">
           <p class="error-message milli island-1-16 push-0" id="website-error">
             <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
             <span class="icon-label">Please provide a properly formatted website address</span>
@@ -62,18 +62,17 @@
     <div class="unit gutter xs-1 s-1 m-1-2 l-1-2">
         <div class="push-2">
           <label for="comment">Your comment<em class="flag-optional milli normal">(optional)</em></label>
-          <textarea></textarea>
+          <textarea id="comment"></textarea>
         </div>
-        <div class="push-2 pad-t-1">
-          <input type="checkbox" id="checkbox" required aria-describedby="agree-error">
-          <label ="checkbox"><span class="check">Please check if you wish to receive updates!</span></label>
+        <div class="push-1-2 pad-t-1">
+          <input type="checkbox" id="checkbox">
+          <label for="checkbox"><span class="check">Please check if you wish to receive updates!</span></label>
         </div>
         <div class="pad-t-0">
           <button class="btn" type="submit">send</button>
         </div>
       </div>
     </div>
-  </div>
   </form>
   <script src="http://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
