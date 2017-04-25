@@ -970,17 +970,17 @@ icon-card:</p>
     &lt;ul class="list-group-inline gutter">
       &lt;li>
         &lt;a class="icon i-32">
-          &lt;svg>&lt;use xlink:href="../images/icons.svg#facebook" />&lt;/svg>
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook" />&lt;/svg>
         &lt;/a>
       &lt;/li>
       &lt;li>
         &lt;a class="icon i-32">
-          &lt;svg>&lt;use xlink:href="../images/icons.svg#linkdin" />&lt;/svg>
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#linkdin" />&lt;/svg>
         &lt;/a>
       &lt;/li>
       &lt;li>
         &lt;a class="icon i-32">
-          &lt;svg>&lt;use xlink:href="../images/icons.svg#mail" />&lt;/svg>
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#mail" />&lt;/svg>
         &lt;/a>
       &lt;/li>
     &lt;/ul>
@@ -1049,70 +1049,65 @@ icon-card:</p>
               </button>
               <code><pre id="form-form-code-sample-copy-chunk">&lt;form class="max-length island" method="post" novalidate=""&gt;
   &lt;div class="error-message error-message-highlighted island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class=" gutter-1 push-1-4">Contact&lt;/h3>
+    &lt;h3 class="gutter-1 push-1-4">Contact&lt;/h3>
     &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
     &lt;span class="form-info">Please fill out the form with some information about your project. Please note that it will take some times to respond&lt;/span>
   &lt;/div>
+  &lt;div class="grid">
+    &lt;div class="unit xs-1 s-1 m-1-2 l-1-2">
 
-  &lt;div class="push-1-2">
-    &lt;label for="first-name">First Name&lt;/label>
-    &lt;input id="first-name" required aria-describedby="first-name-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="first-name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a name&lt;/span>
-    &lt;/p>
+      &lt;div class="push-1-2">
+        &lt;label for="first-name">First Name&lt;/label>
+        &lt;input id="first-name" required aria-describedby="first-name-error">
+        &lt;p class="error-message milli island-1-4 push-0" id="first-name-error">
+          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+          &lt;span class="icon-label">Please provide a name&lt;/span>
+        &lt;/p>
+      &lt;/div>
+
+      &lt;div class="push-1-2">
+        &lt;label for="last-name">Last Name&lt;/label>
+        &lt;input id="last-name" required aria-describedby="last-name-error">
+        &lt;p class="error-message milli island-1-4 push-0" id="last-name-error">
+          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+          &lt;span class="icon-label">Please provide a last name&lt;/span>
+        &lt;/p>
+      &lt;/div>
+
+      &lt;div class="push-1-2">
+        &lt;label for="email">Email&lt;/label>
+        &lt;input type="email" id="email" required aria-describedby="email-error">
+        &lt;p class="error-message milli island-1-4 push-0" id="email-error">
+          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+          &lt;span class="icon-label"> Please provide a properly formatted email address&lt;/span>
+        &lt;/p>
+      &lt;/div>
+
+      &lt;div class="push-1-2">
+        &lt;label for="website">Website&lt;/label>
+        &lt;input type="url" id="url" required aria-describedby="website-error">
+        &lt;p class="error-message milli island-1-16 push-0" id="website-error">
+          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+          &lt;span class="icon-label">Please provide a properly formatted website address&lt;/span>
+        &lt;/p>
+      &lt;/div>
+    &lt;/div>
+
+    &lt;div class="unit gutter xs-1 s-1 m-1-2 l-1-2">
+      &lt;div class="push-2">
+        &lt;label for="comment">Your comment&lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
+        &lt;textarea>&lt;/textarea>
+      &lt;/div>
+      &lt;div class="push-2 pad-t-1">
+        &lt;input type="checkbox" id="checkbox" required aria-describedby="agree-error">
+        &lt;label="checkbox"="">&lt;span class="check">Please check if you wish to receive updates!&lt;/span>&lt;/label>
+      &lt;/div>
+      &lt;div class="pad-t-0">
+        &lt;button class="btn" type="submit">send&lt;/button>
+      &lt;/div>
+    &lt;/div>
   &lt;/div>
 
-  &lt;div class="push-1-2">
-    &lt;label for="last-name">Last Name&lt;/label>
-    &lt;input id="last-name" required aria-describedby="last-name-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="last-name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a last name&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="email">Email&lt;/label>
-    &lt;input type="email" id="email" required aria-describedby="email-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label"> Please provide a properly formatted email address&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="website">Website&lt;/label>
-    &lt;input type="url" id="url" required aria-describedby="website-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="website-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label"> Please provide a properly formatted website address&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="text">comment&lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
-    &lt;input type="text" id="url">
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="url">Tell me about your project&lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
-    &lt;textarea>&lt;/textarea>
-  &lt;/div>
-
-  &lt;div class="push-1-2 pad-t-1-2">
-    &lt;input type="checkbox" id="checkbox" required aria-describedby="agree-error">
-    &lt;label for="checkbox">I agree!&lt;/label>
-
-    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please check agree to continue!&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="pad-t-1-2">
-    &lt;button class="btn" type="submit">send&lt;/button>
-  &lt;/div>
 &lt;/form>
 </pre></code>
             </div>

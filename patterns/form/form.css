@@ -30,3 +30,10 @@ html {
 .is-validated input:invalid + .error-message {
   display: block;
 }
+
+.btn {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+
+  color: #fff;
+}
